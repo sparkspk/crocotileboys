@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charaster="utf-8"/>
+   <meta name="description" content="PAGINA WEB SOBRE TATUAJES">
+    <meta name="keywords" content="TATUAJES,TINTA,DISEÑO,FREEHAND">
+       <title>CROCOTILE TATTOOS</title>
+       <link rel="stylesheet" href="estiloscss/estilos.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+       <style>
+          body {
+             background-image:url(imagenes/bkggreen.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-attachment: fixed;
+          }
+   
+   
+   
+   </style>
+</head>    
+<body>
+<header>
+
+    
+<div id="contenedorImg">
+        <img id="cby's" src="imagenes/LOGOCCB.png" alt="LOGOCCB.png">
+        <img id="spkblue" src="imagenes/spkblue.png" alt="spkblue.png">
+        <img id="spkcbys" src="imagenes/spkcbys.png" alt="spkcbys.png">
+        <img id="spkynegro" src="imagenes/spkynegro.png" alt="spkynegro.png">
+        <img id="ctllelow" src="imagenes/ctllelow.png" alt="ctllelow.png">
+        <img id="spkbandera" src="imagenes/spkbandera.png" alt="spkbandera.png">
+        <img id="blueone" src="imagenes/blueonee.png" alt="blueonee.png">
+        <img id="spkblue1" src="imagenes/spkblue.png" alt="spkblue.png">
+        <img id="cbgreen" src="imagenes/crocogreen.png" alt="green.png">
+        <img id="spkyblack" src="imagenes/spkynegro.png" alt="spkynegro.png">
+        <img id="spkpurple" src="imagenes/spkpurple.png" alt="purple.png"> 
+        </div>
+        <h1>crocotile boy's studios</h1>
+   </header>
+    <nav> 
+    <ul>
+    <li id="li2"><a href="">Crocotile Boy'S</a>
+    <ul ID="submenu1">
+        <li><a herf="">QUIENES SOMOS</a></li>
+        <li><a herf="">NUESTRO TRABAJO</a></li>
+        <li><a herf="">RESERVACIONES</a></li>
+        <li><a herf="">COTIZACIONES</a></li>
+    </ul>
+    </li> 
+    <li id="li3"><a href="">Crocotile Tattos</a>
+    <ul id="submenu2">
+    <li><a herf="">Quienes somos</a></li>
+    <li><a herf="">CATALOGO DE TATUAJES</a></li>
+       <li>
+          <a href="#">CATÁLOGO DE TATUAJES</a>
+
+          <!-- === GALERÍA DENTRO DEL SUBMENÚ === -->
+          <div class="galeria-submenu">
+            <div class="contenedor-imagen">
+              <img src="imagenes/bkgv.jpg" alt="Tatuaje 1">
+            </div>
+            <div class="contenedor-imagen">
+              <img src="imagenes/BKG13.jpg" alt="Tatuaje 2">
+            </div>
+            <div class="contenedor-imagen">
+              <img src="imagenes/BKGAZ.jpg" alt="Tatuaje 3">
+            </div>
+          </div>
+        </li>
+    <li><a herf="">COTIZACIONES</a></li>
+    <li><a herf="">CONTACTO</a></li>
+    </ul>
+    </li>
+    </ul>
+    </nav>
+    <div class="lightbox" id="lightbox">
+  <span class="cerrar">&times;</span>
+  <img class="lightbox-img" src="#">
+</div>
+
+<script>
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.querySelector(".lightbox-img");
+  const cerrar = document.querySelector(".cerrar");
+
+  document.querySelectorAll(".galeria-submenu img").forEach(img => {
+    img.addEventListener("click", () => {
+      lightbox.style.display = "flex";
+      lightboxImg.src = img.src;
+    });
+  });
+
+  cerrar.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+</script>
+<div class="slider">
+    <div class="slides">
+      <img src="imagenes/sld1.jpg" alt="Imagen 1">
+      <img src="imagenes/slider3.jpg" alt="Imagen 2">
+      <img src="imagenes/slider5.jpg" alt="Imagen 3">
+      <img src="imagenes/slider4.jpg" alt="Imagen 4">
+    </div>
+
+    <div class="indicator">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+    
+    <!-- Font Awesome (iconos oficiales y actualizados) -->
+  <script src="https://kit.fontawesome.com/a2d9b6e1f7.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- ==== BARRA FIJA DE REDES ==== -->
+  <div class="barra-redes">
+    <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://x.com" target="_blank" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://wa.me/521234567890" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.tiktok.com" target="_blank" class="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+  </div>
+
+  <div style="height:2000px;"></div> <!-- solo para ver el scroll -->
+
+<footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-section">
+        <h3>CROCOTILE STUDIO</h3>
+        <p>Arte, pasion y riesgos, CROCOTILE BOYS encarnando la cultura.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Enlaces</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contáctanos</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Tlaxcala, México</p>
+        <p><i class="fa-solid fa-envelope"></i> crocotile@boys.com</p>
+        <p><i class="fa-solid fa-phone"></i> +52 228 123 4567</p>
+      </div>
+
+      <div class="footer-section redes">
+        <h3>Síguenos</h3>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 CROCOTILE STUDIOS. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+    
+
+
+</body>
+
+    
+    
+    
+ </html>
